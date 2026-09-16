@@ -26,7 +26,9 @@ Use when showing call graphs, execution flows, or architecture traces.
 
 It forces a consistent plain-text output (`indented →` arrows in a `ts` block, Production and Tests as separate sections when they differ) and a thinking pipeline: draw the graph first, then write code that *is* the graph. That pipeline is Effect-shaped (`A` happy path, `E` break points, `R` requirements) even when the codebase is not Effect.
 
-Not original. The output format and Effect graph thinking come from existing notes (`DESIGN_THINKING.md`, `ECALL_GRAPH_IN_YOUR_AGENTS.md`) packaged so agents load them on demand.
+Not original. The output format and Effect graph thinking come from [r17x’s design-thinking gist](https://gist.github.com/r17x/90eb2f7be93932b5693753aedb09c01a) (`DESIGN_THINKING.md`, `ECALL_GRAPH_IN_YOUR_AGENTS.md`), packaged so agents load them on demand.
+
+**Reference:** [https://gist.github.com/r17x/90eb2f7be93932b5693753aedb09c01a](https://gist.github.com/r17x/90eb2f7be93932b5693753aedb09c01a)
 
 ## License
 

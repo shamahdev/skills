@@ -77,5 +77,6 @@ one falls back), handle E inline in the gen body. Mark it clearly. This is rare.
 Otherwise keep all error handling out of gen.
 
 Sources:
-- DESIGN_THINKING.md: X → Graph → Effect<A,E,R> pipeline (§1–§10, gen=A / pipe=E)
-- ECALL_GRAPH_IN_YOUR_AGENTS.md: plain-text indented → output format
+- https://gist.github.com/r17x/90eb2f7be93932b5693753aedb09c01a
+  - DESIGN_THINKING.md: X → Graph → Effect<A,E,R> pipeline (§1–§10, gen=A / pipe=E)
+  - ECALL_GRAPH_IN_YOUR_AGENTS.md: plain-text indented → output format
